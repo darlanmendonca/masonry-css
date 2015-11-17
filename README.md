@@ -9,6 +9,8 @@ Support to old browsers will be studied in the future.
 ## NOTE: 
 IN DEVELOPMENT, watch this repo, to stay up-to-date
 
+and give me a star, if you like this
+
 <!-- # install
 
 Install using ```bower``` or ```npm```.
@@ -20,4 +22,9 @@ bower install --save mosaic-css
 ```sh
 npm install --save mosaic-css
 ``` -->
+
+### License
+
+The MIT License (MIT)
+Copyright (c) 2015 Darlan Mendonça
 
