@@ -6,7 +6,7 @@ Thanks to Flex-box!! (CSS3 feature)
 Support to old browsers will be studied in the future.
 
 
-## NOTE: 
+## IMPORTANT: 
 IN DEVELOPMENT, watch this repo, to stay up-to-date
 
 and give me a star, if you like this
@@ -24,7 +24,6 @@ npm install --save mosaic-css
 ``` -->
 
 ### License
-
 The MIT License (MIT)
 Copyright (c) 2015 Darlan Mendonça
 
