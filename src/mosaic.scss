@@ -1,0 +1,26 @@
+.mosaic {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 65vw;
+  // max-height: 800px;
+  // font-size: 0;
+
+  box-sizing: border-box;
+  border: 1px solid white;
+
+  @media (max-width: 1280px) {height: 100vw}
+  @media (max-width: 980px) {height: 200vw}
+  @media (max-width: 500px) {height: 1000vw}
+
+  img {
+    // width: 33.3%;
+    max-width: calc(25vw - 2px);
+    transform: translate(-1px, 0);
+    border: 1px solid white;
+
+    @media (max-width: 1280px) {max-width: calc(33.3vw - 2px)}
+    @media (max-width: 980px) {max-width: calc(50vw - 2px)}
+    @media (max-width: 500px) {max-width: calc(100vw - 2px)}
+  }
+}
