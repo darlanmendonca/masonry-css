@@ -25,6 +25,7 @@ npm install --save mosaic-css
 ``` -->
 
 ### License
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Darlan Mendonça
