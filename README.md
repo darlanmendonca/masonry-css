@@ -1,8 +1,9 @@
 # mosaic-css
 
-create mosaic style grid, like masonry plugins, but with css only!
+Create mosaic style grid, like masonry plugins, but with css only!
 
 Thanks to Flex-box!! (CSS3 feature)
+
 Support to old browsers will be studied in the future.
 
 
