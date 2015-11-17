@@ -1,0 +1,21 @@
+{
+  "name": "mosaic-css",
+  "authors": [
+    "darlanmendonca <darlanmendonca@gmail.com>"
+  ],
+  "description": "create mosaic style grid, like masonry plugins, but with css only",
+  "main": [
+    "dist/mosaic.css"
+  ],
+  "keywords": [
+    "mosaic",
+    "masonry",
+    "mosaic-css",
+    "tiles",
+    "grid",
+    "css",
+    "layout"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}

@@ -1,0 +1,34 @@
+{
+  "name": "mosaic-css",
+  "version": "0.0.0",
+  "description": "create mosaic style grid, like masonry plugins, but with css only!",
+  "main": "dist/mosaic.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darlanmendonca/mosaic-css.git"
+  },
+  "keywords": [
+    "mosaic",
+    "masonry",
+    "mosaic-css",
+    "tiles",
+    "grid",
+    "css",
+    "layout"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/mosaic-css/issues"
+  },
+  "homepage": "https://github.com/darlanmendonca/mosaic-css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
