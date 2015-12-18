@@ -10,8 +10,6 @@ Support to old browsers will be studied in the future.
 ## IMPORTANT: 
 IN DEVELOPMENT, watch this repo, to stay up-to-date
 
-and give me a star, if you like this ;)
-
 <!-- # install
 
 Install using ```bower``` or ```npm```.

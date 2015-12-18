@@ -1,8 +1,8 @@
 'use strict';
 
-require('./gulp-tasks/sass');
-require('./gulp-tasks/browser-sync');
-require('./gulp-tasks/watch');
+require('./tasks/sass');
+require('./tasks/browser-sync');
+require('./tasks/watch');
 
 let gulp = require('gulp');
 
