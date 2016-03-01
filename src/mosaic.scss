@@ -1,23 +1,16 @@
 .mosaic {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 65vw;
+  column-gap: 2px;
+  padding: 2px;
+  columns: 2;
+  transform: translateZ(0);
 
-  box-sizing: border-box;
-  border: 1px solid white;
+  @media (min-width: 510px) {columns: 3;}
+  @media (min-width: 768px) {columns: 4;}
+  @media (min-width: 1440px) {columns: 6;}
 
-  @media (max-width: 1023px) {height: 89vw}
-  @media (max-width: 767px) {height: 200vw}
-  @media (max-width: 374px) {height: 800vw}
-
-  img {
-    width: calc(25vw - 2px);
-    transform: translate(-1px, 0);
-    border: 1px solid white;
-
-    @media (max-width: 1023px) {width: calc(33.3vw - 2px)}
-    @media (max-width: 767px) {width: calc(50vw - 2px)}
-    @media (max-width: 374px) {width: calc(100vw - 2px)}
+  .mosaic-item {
+    width: 100%;
+    display: block;
+    margin-bottom: 2px;
   }
 }
