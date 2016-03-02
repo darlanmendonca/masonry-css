@@ -1,16 +1,18 @@
 .mosaic {
-  column-gap: 2px;
-  padding: 2px;
+  $spacing: 2px;
+  column-gap: $spacing;
+  padding: $spacing;
   columns: 2;
   transform: translateZ(0);
+  box-sizing: border-box;
 
-  @media (min-width: 510px) {columns: 3;}
-  @media (min-width: 768px) {columns: 4;}
+  @media (min-width: 511px) {columns: 3;}
+  @media (min-width: 769px) {columns: 4;}
   @media (min-width: 1440px) {columns: 6;}
 
   .mosaic-item {
     width: 100%;
     display: block;
-    border-bottom: 2px solid transparent;
+    border-bottom: $spacing solid transparent;
   }
 }
