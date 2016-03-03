@@ -2,9 +2,7 @@
 
 Create mosaic style grid, like masonry plugins, but with css only!
 
-Thanks to CSS Columns!!
-
-Support to old browsers will be studied in the future.
+See a [demo](https://rawgit.com/darlanmendonca/mosaic-css/master/dist/index.html)
 
 <!-- # install
 
@@ -21,6 +19,4 @@ npm install --save mosaic-css
 ### License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 Darlan Mendonça
 
