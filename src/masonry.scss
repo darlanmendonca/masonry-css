@@ -1,4 +1,4 @@
-.mosaic {
+.masonry {
   $spacing: 2px;
   column-gap: $spacing;
   padding: $spacing;
@@ -10,7 +10,7 @@
   @media (min-width: 769px) {columns: 4;}
   @media (min-width: 1440px) {columns: 6;}
 
-  .mosaic-item {
+  .masonry-item {
     width: 100%;
     display: block;
     border-bottom: $spacing solid transparent;
