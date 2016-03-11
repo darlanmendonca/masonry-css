@@ -2,10 +2,10 @@
   "name": "masonry-css",
   "version": "0.0.5",
   "description": "create masonry style grid, like masonry plugins, but with css only!",
-  "main": [
-    "dist/masonry.css",
-    "src/masonry.scss",
-  ],
+  "main": "src/masonry.scss",
+  "directories": {
+    "lib": "dist/masonry.css"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

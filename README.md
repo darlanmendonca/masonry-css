@@ -14,7 +14,7 @@ Install using ```npm```.
 npm install --save masonry-css
 ```
 
-Refer to css with ```masonry.css```, or ```masonry.scss'```. The path to mains files (.css and .scss), are located in package.json, in the 'main' key.
+Refer to css with ```masonry.css```, or ```masonry.scss'```. The path to mains files (.css and .scss), are located in package.json, in the keys 'main' and 'directories.lib'.
 
 In your .html use class ```.masonry``` as container, and inside of that, each image need has the class ```.masonry-item```, example:
 
