@@ -6,7 +6,7 @@ See [demo](https://rawgit.com/darlanmendonca/masonry-css/master/dist/index.html)
 
 ![Preview](https://github.com/darlanmendonca/masonry-css/blob/master/dist/imgs/preview.jpg?raw=true)
 
-# install
+### Install
 
 Install using ```npm```.
 
@@ -14,3 +14,4 @@ Install using ```npm```.
 npm install --save masonry-css
 ```
 
+and refer to masonry.css inside /dist
