@@ -14,4 +14,14 @@ Install using ```npm```.
 npm install --save masonry-css
 ```
 
-and refer to masonry.css inside /dist
+and refer to css with ```/dist/masonry.css```, or sass ```@import '../path/src/masonry.scss'```
+
+then, in your .html use class ```.masonry``` and inside of that, each image with class ```.masonry-item```, example:
+```html
+<div class="masonry">
+  <img class="masonry-item" src="..." />
+  <img class="masonry-item" src="..." />
+  <img class="masonry-item" src="..." />
+  <img class="masonry-item" src="..." />
+</div>
+```
