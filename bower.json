@@ -1,5 +1,6 @@
 {
   "name": "masonry-css",
+  "version": "0.0.6",
   "authors": [
     "darlanmendonca <darlanmendonca@gmail.com>"
   ],
@@ -13,8 +14,9 @@
     "tiles",
     "grid",
     "css",
-    "layout"
+    "layout",
+    "columns"
   ],
   "license": "MIT",
-  "homepage": ""
+  "homepage": "https://github.com/darlanmendonca/masonry-css"
 }

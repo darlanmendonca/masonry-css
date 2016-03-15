@@ -1,6 +1,6 @@
 {
   "name": "masonry-css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "create masonry style grid, like masonry plugins, but with css only!",
   "main": "src/masonry.scss",
   "directories": {

@@ -8,13 +8,21 @@ See [demo](https://rawgit.com/darlanmendonca/masonry-css/master/dist/index.html)
 
 ### Install
 
-Install using ```npm```.
+Install using ```npm``` or ```bower```.
 
 ```sh
 npm install --save masonry-css
 ```
 
-Refer to css with ```masonry.css```, or ```masonry.scss'```. The path to mains files (.css and .scss), are located in package.json, in the keys 'main' and 'directories.lib'.
+```sh
+bower install --save masonry-css
+```
+
+Refer to css with ```dist/masonry.css```, or ```src/masonry.scss'```. I.e.
+
+```html
+<link rel="stylesheet" src="bower_components/dist/masonry.css" />
+```
 
 In your .html use class ```.masonry``` as container, and inside of that, each image need has the class ```.masonry-item```, example:
 
